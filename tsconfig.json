@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "es6",                                  
+      "experimentalDecorators": true,                   
+      "emitDecoratorMetadata": true,                    
+      "module": "commonjs",                              
+      "rootDir": "./",                                
+      "moduleResolution": "node",                      
+      "baseUrl": "src",                                  
+      "sourceMap": true,                                
+      "outDir": "dist",                                  
+      "esModuleInterop": true,                            
+      "forceConsistentCasingInFileNames": true,            
+      "strict": true,                                      
+      "noUnusedLocals": true,                          
+      "noUnusedParameters": true,                       
+      "noImplicitReturns": false,                       
+      "skipLibCheck": true                                
+    },
+    "include": ["./"], 
+    "exclude": ["node_modules"] 
+  }
+  
